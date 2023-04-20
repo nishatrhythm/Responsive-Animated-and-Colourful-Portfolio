@@ -88,6 +88,7 @@ section {
 
 .home-content {
     max-width: 60rem;
+    z-index: 99;
 }
 
 .home-content h1 {
@@ -716,5 +717,14 @@ span {
         transform: translateX(0);
         transition-delay: .25s;
     }
+
+    .home-imgHover {
+        pointer-events: none;
+        background: var(--bg-color);
+        opacity: .6;
+    }
+}
+
+@media (max-width: 520px) {
     
 }
